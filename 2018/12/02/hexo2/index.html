@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Hexoを使ってGithub Pagesにブログを公開します。 GitHub Pages:http://mamichin.github.ioブログ公開場所：https://github.com/mamichin/mamichin.lifeblog もう１年前の事でしょうか。google Homeアプリ作ってみようと勉強会に参加したときに「デプロイ」という言葉を初めて知りました。グーグル先生に「デプ">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-04T15:02:47.960Z">
+<meta property="og:updated_time" content="2018-12-04T15:09:47.077Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HexoでGithubにブログを作る2　GitHubにデプロイする編">
 <meta name="twitter:description" content="Hexoを使ってGithub Pagesにブログを公開します。 GitHub Pages:http://mamichin.github.ioブログ公開場所：https://github.com/mamichin/mamichin.lifeblog もう１年前の事でしょうか。google Homeアプリ作ってみようと勉強会に参加したときに「デプロイ」という言葉を初めて知りました。グーグル先生に「デプ">
@@ -103,14 +103,14 @@
 <h2 id="git-デプロイ"><a href="#git-デプロイ" class="headerlink" title="git デプロイ"></a>git デプロイ</h2><p>Hexoの git デプロイプラグインをインストールします。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
 <p>公開用ファイルを作成(generate)し、デプロイ(deploy)します。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
 <p>まとめてできます<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy -g</span><br></pre></td></tr></table></figure></p>
+<p>私の場合は数十秒後には以下で確認できました。<br>１０分ほどかかる事もあるそうです。<br><a href="https://mamichin.github.io/mamichin.lifeblog">https://mamichin.github.io/mamichin.lifeblog</a></p>
 <h2 id="git-デプロイでエラー"><a href="#git-デプロイでエラー" class="headerlink" title="git デプロイでエラー"></a>git デプロイでエラー</h2><p>こんなエラーが出ました。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Host key verification failed.</span><br><span class="line">fatal: Could not <span class="built_in">read</span> from remote repository.</span><br></pre></td></tr></table></figure></p>
 <p>こちらのサイトを参考に設定して解決です。<br><a href="https://qiita.com/shizuma/items/2b2f873a0034839e47ce" target="_blank" rel="noopener">gitHubでssh接続する手順~公開鍵・秘密鍵の生成から~</a></p>
-<h2 id="git-デプロイでエラー-1"><a href="#git-デプロイでエラー-1" class="headerlink" title="git デプロイでエラー"></a>git デプロイでエラー</h2><p><a href="https://mamichin.github.io/mamichin.blog">https://mamichin.github.io/mamichin.blog</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://mamichin.github.io/mamichin.lifeblog/2018/12/02/hexo2/" data-id="cjp9vjwbp0000asi7n2w0o1wp" class="article-share-link">Share</a>
+      <a data-url="https://mamichin.github.io/mamichin.lifeblog/2018/12/02/hexo2/" data-id="cjp9vzg640000vci70l7o7jyw" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/mamichin.lifeblog/tags/GitHub/">GitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/mamichin.lifeblog/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/mamichin.lifeblog/tags/ブログ/">ブログ</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/mamichin.lifeblog/tags/静的ウェブサイト/">静的ウェブサイト</a></li></ul>
