@@ -37,18 +37,22 @@ pusu時にGithubのアカウント名やパスワードが聞かれた場合が�
 ## config.ymlのDeployment書き換え
 
 mamichin.blog直下にある_config.ymlファイルの以下を書き換えます。
+branchは「gh-pages」にします。masterにしていると、
+バックアップはデプロイデータに上書きされてしまいます。
+私は一度masterにして上書きされてショックでした。。
+
 ``` yml
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://mamichin.github.io/mamichin.blog
-root: /mamichin.blog/
+url: https://mamichin.github.io/mamichin.lifeblog
+root: /mamichin.lifeblog/
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/mamichin/mamichin.lifeblog.git
-  branch: master
+  repo: git@github.com:mamichin/mamichin.lifeblog.git
+  branch: gh-pages
 ```
 
 ## git デプロイ
@@ -67,6 +71,11 @@ hexo deploy
 hexo deploy -g
 ```
 
+私の場合は数十秒後には以下で確認できました。
+１０分ほどかかる事もあるそうです。
+https://mamichin.github.io/mamichin.lifeblog
+
+
 ## git デプロイでエラー
 こんなエラーが出ました。
 ``` bash
@@ -75,6 +84,3 @@ fatal: Could not read from remote repository.
 ```
 こちらのサイトを参考に設定して解決です。
 [gitHubでssh接続する手順~公開鍵・秘密鍵の生成から~](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
-
-## git デプロイでエラー
-https://mamichin.github.io/mamichin.blog
