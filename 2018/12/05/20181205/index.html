@@ -5,23 +5,26 @@
   
 
   
-  <title>MixLeap「Step up for TensorFlow」 | Hexo</title>
+  <title>Eclipse×GitHub　EclipseでGit準備編1 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="2018/12/4 MixLeap「Step up for TensorFlow」に行ってきました。グランフロント大阪Yahoo!オフィス行って見たかったのですが、ビル自体がすごいです。そしてオフィスの中にハンモックやらカフェのようなコーナーがあったりオシャレオフィスですごく素敵でした。 質問は、slido.com コードは#z807 スピーカー： すぎゃーん @sugyan発表概要:趣味でTen">
+  <meta name="description" content="Eclipse(java)で作成したツールを管理する事にしたので、Eclipse上でGithubを使う方法です。 前提・EclipseとEgitインストール済み  Egitは大抵Eclipseインストール時に一緒にインストールされます。・ Gitリポジトリを作成する(git init)Gitリポジトリビューを表示させます。[ウィンドウ]-[ビューの表示]-[その他] Gitリポジトリビューより「新">
 <meta name="keywords" content="Workshop,TensorFlow">
 <meta property="og:type" content="article">
-<meta property="og:title" content="MixLeap「Step up for TensorFlow」">
-<meta property="og:url" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/04/20181204/index.html">
+<meta property="og:title" content="Eclipse×GitHub　EclipseでGit準備編1">
+<meta property="og:url" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/05/20181205/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="2018/12/4 MixLeap「Step up for TensorFlow」に行ってきました。グランフロント大阪Yahoo!オフィス行って見たかったのですが、ビル自体がすごいです。そしてオフィスの中にハンモックやらカフェのようなコーナーがあったりオシャレオフィスですごく素敵でした。 質問は、slido.com コードは#z807 スピーカー： すぎゃーん @sugyan発表概要:趣味でTen">
+<meta property="og:description" content="Eclipse(java)で作成したツールを管理する事にしたので、Eclipse上でGithubを使う方法です。 前提・EclipseとEgitインストール済み  Egitは大抵Eclipseインストール時に一緒にインストールされます。・ Gitリポジトリを作成する(git init)Gitリポジトリビューを表示させます。[ウィンドウ]-[ビューの表示]-[その他] Gitリポジトリビューより「新">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/04/20181204/images/20181204.JPG">
-<meta property="og:image" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/04/20181204/images/20181204_2.JPG">
-<meta property="og:updated_time" content="2018-12-05T12:06:42.643Z">
+<meta property="og:image" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/05/20181205/images/20181205_01.png">
+<meta property="og:image" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/05/20181205/images/20181205_02.png">
+<meta property="og:image" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/05/20181205/images/20181205_03.png">
+<meta property="og:image" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/05/20181205/images/20181205_4.png">
+<meta property="og:image" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/05/20181205/images/20181205_5.png">
+<meta property="og:updated_time" content="2018-12-06T16:47:58.590Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="MixLeap「Step up for TensorFlow」">
-<meta name="twitter:description" content="2018/12/4 MixLeap「Step up for TensorFlow」に行ってきました。グランフロント大阪Yahoo!オフィス行って見たかったのですが、ビル自体がすごいです。そしてオフィスの中にハンモックやらカフェのようなコーナーがあったりオシャレオフィスですごく素敵でした。 質問は、slido.com コードは#z807 スピーカー： すぎゃーん @sugyan発表概要:趣味でTen">
-<meta name="twitter:image" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/04/20181204/images/20181204.JPG">
+<meta name="twitter:title" content="Eclipse×GitHub　EclipseでGit準備編1">
+<meta name="twitter:description" content="Eclipse(java)で作成したツールを管理する事にしたので、Eclipse上でGithubを使う方法です。 前提・EclipseとEgitインストール済み  Egitは大抵Eclipseインストール時に一緒にインストールされます。・ Gitリポジトリを作成する(git init)Gitリポジトリビューを表示させます。[ウィンドウ]-[ビューの表示]-[その他] Gitリポジトリビューより「新">
+<meta name="twitter:image" content="https://mamichin.github.io/mamichin.lifeblog/2018/12/05/20181205/images/20181205_01.png">
   
     <link rel="alternate" href="/mamichin.lifeblog/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -68,10 +71,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-20181204" class="article article-type-post" itemscope="" itemprop="blogPost">
+        <section id="main"><article id="post-20181205" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
-    <a href="/mamichin.lifeblog/2018/12/04/20181204/" class="article-date">
-  <time datetime="2018-12-03T15:00:00.000Z" itemprop="datePublished">2018-12-04</time>
+    <a href="/mamichin.lifeblog/2018/12/05/20181205/" class="article-date">
+  <time datetime="2018-12-04T15:00:00.000Z" itemprop="datePublished">2018-12-05</time>
 </a>
     
   <div class="article-category">
@@ -86,7 +89,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      MixLeap「Step up for TensorFlow」
+      Eclipse×GitHub　EclipseでGit準備編1
     </h1>
   
 
@@ -94,20 +97,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>2018/12/4 MixLeap「Step up for TensorFlow」に行ってきました。<br>グランフロント大阪Yahoo!オフィス行って見たかったのですが、ビル自体がすごいです。そしてオフィスの中にハンモックやらカフェのようなコーナーがあったりオシャレオフィスですごく素敵でした。</p>
-<p>質問は、slido.com コードは#z807</p>
-<h1 id="スピーカー：-すぎゃーん-sugyan"><a href="#スピーカー：-すぎゃーん-sugyan" class="headerlink" title="スピーカー： すぎゃーん @sugyan"></a>スピーカー： すぎゃーん @sugyan</h1><p>発表概要:<br>趣味でTensorFlowで画像分類 するためのデータセットをどうにかする話</p>
-<h2 id="画像機械学習に必要なもの"><a href="#画像機械学習に必要なもの" class="headerlink" title="画像機械学習に必要なもの"></a>画像機械学習に必要なもの</h2><p>Datasetがないと何も始まらない。<br>とにかく画像を集め、ひたすらラベル付け。</p>
-<h2 id="アイドル顔識別のためにしたこと"><a href="#アイドル顔識別のためにしたこと" class="headerlink" title="アイドル顔識別のためにしたこと"></a>アイドル顔識別のためにしたこと</h2><p>Webアプリで顔画像管理。<br>アイドル180万件収集。<br>収集対象は3000人。<br>画像はバイナリでdb保存。</p>
-<p>すぎゃーんさんは200人のアイドル名がわかるとのこと。すごい。かなりのオタクじゃないと機械学習は難しいのかもしれません。<br><img src="images/20181204.JPG" alt=""></p>
-<h1 id="スピーカー：-Laurence-Moroney（Google）"><a href="#スピーカー：-Laurence-Moroney（Google）" class="headerlink" title="スピーカー： Laurence Moroney（Google）"></a>スピーカー： Laurence Moroney（Google）</h1><p>発表概要:<br>このセッションでは、TensorFlowとTensorFlow Liteと、機械学習を手のひらにどのように置くことができるかを説明します。 AIとMLがGoogleの視点でどのように見えるか、MLの仕組みのサンプルを見てから、AndroidやiOSで動作するMLモデルを取得する方法をご覧ください。</p>
-<p>TensorFlow Lightでのモバイル実装方法とデモ。<br>翻訳なしだったので、スライドに字幕付。<br>グーグルスライドの字幕自動生成機能。すごい。<br>そしてプレゼン資料の作り方もすごい。</p>
-<p><img src="images/20181204_2.JPG" alt=""></p>
+        <p>Eclipse(java)で作成したツールを管理する事にしたので、Eclipse上でGithubを使う方法です。</p>
+<h1 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h1><p>・EclipseとEgitインストール済み<br>  Egitは大抵Eclipseインストール時に一緒にインストールされます。<br>・</p>
+<h1 id="Gitリポジトリを作成する-git-init"><a href="#Gitリポジトリを作成する-git-init" class="headerlink" title="Gitリポジトリを作成する(git init)"></a>Gitリポジトリを作成する(git init)</h1><p>Gitリポジトリビューを表示させます。<br>[ウィンドウ]-[ビューの表示]-[その他]<br><img src="images/20181205_01.png" alt=""></p>
+<p>Gitリポジトリビューより「新規ローカルGitリポジトリの作成」選択します。<br><img src="images/20181205_02.png" alt=""></p>
+<p>管理する場所を選択します。<br><img src="images/20181205_03.png" alt=""></p>
+<h1 id="Gitリポジトリを追跡する-git-add"><a href="#Gitリポジトリを追跡する-git-add" class="headerlink" title="Gitリポジトリを追跡する(git add)"></a>Gitリポジトリを追跡する(git add)</h1><p>管理対象のJavaプロジェクトをGitリポジトリと共有します。<br>「Javaパッケージ・エクスプローラー」ビューで右クリック→メニューから[チーム]-[プロジェクトの共用]<br><img src="images/20181205_4.png" alt=""></p>
+<p>「Gitリポジトリーの構成」ウィンドウのリポジトリー欄に、先ほど作成したGitリポジトリを選択して「完了」ボタンをクリックして下さい。<br><img src="images/20181205_5.png" alt=""></p>
+<p>これでGitリポジトリに管理対象が移動しました。</p>
+<p>管理対象フォルダ、ファイルを右クリックメニューから[チーム]→[索引に追加]をクリックします。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://mamichin.github.io/mamichin.lifeblog/2018/12/04/20181204/" data-id="cjpb4pgp90000sci7s9s9ugt0" class="article-share-link">Share</a>
+      <a data-url="https://mamichin.github.io/mamichin.lifeblog/2018/12/05/20181205/" data-id="cjpcuk8y90000jsi7r6oj6t3f" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/mamichin.lifeblog/tags/TensorFlow/">TensorFlow</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/mamichin.lifeblog/tags/Workshop/">Workshop</a></li></ul>
@@ -118,19 +121,10 @@
     
 <nav id="article-nav">
   
-    <a href="/mamichin.lifeblog/2018/12/05/20181205/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Eclipse×GitHub　EclipseでGit準備編1
-        
-      </div>
-    </a>
   
-  
-    <a href="/mamichin.lifeblog/2018/12/02/hexo1/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/mamichin.lifeblog/2018/12/04/20181204/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">HexoでGithubにブログを作る1　ローカルでHexoのWebページ準備編</div>
+      <div class="article-nav-title">MixLeap「Step up for TensorFlow」</div>
     </a>
   
 </nav>
